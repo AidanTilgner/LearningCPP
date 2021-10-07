@@ -19,5 +19,12 @@ int main()
      * endl is a function that moves onto the next line
     */
 
+    printf("%i\n", slices);
+    /**
+     * This is another way of outputting content, it is a C function, but works in C++
+     * like a lot of C code does. However, just stick with cout because it's a lot more
+     * inuitive in that you don't have to declare the variable type (%i).
+    */
+
     return 0;
 }

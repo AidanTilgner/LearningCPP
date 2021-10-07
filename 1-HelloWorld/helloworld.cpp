@@ -9,6 +9,8 @@ int main(){ //  Main function, type = integer
      *  best practice is using the std:: prefix because it avoids naming conflicts
      *  cout is an object, uses the ostream class
      *  << is an operator, works with operands cout and "Hello World"
+     *  This is simply a way to output things to the console. Make sure you have a terminal window 
+     *  opened in this directory.
     */
 
     using namespace std; // Using directive...bad practice, can introduce naming conflicts
