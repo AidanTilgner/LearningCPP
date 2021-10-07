@@ -12,7 +12,12 @@ int main()
      * = is the assigment operator
      * 5 is the value
     */
-    cout << "There are " << slices << " slices of pizza" << endl; // endl is a manipulator that goes to the next line, like "\n"
+
+    cout << "There are " << slices << " slices of pizza" << endl; 
+    /**
+     * Simply separate by << for concantenation 
+     * endl is a function that moves onto the next line
+    */
 
     return 0;
 }
