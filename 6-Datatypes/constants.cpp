@@ -12,5 +12,8 @@ int main()
     const int y = 5;
     //  This is now const qualified, which means prefixed with const
 
+    //  Another way to declare constants is
+    enum { y = 100 };
+
     return 0;
 }
