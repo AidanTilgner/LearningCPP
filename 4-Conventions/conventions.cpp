@@ -3,6 +3,8 @@
 using std::cout;
 using std::cin;
 
+//  Best resource for core guidlines of C++ is https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
+
 int main()
 {   //  Whenever you have curly braces, indent everything inside
     {
