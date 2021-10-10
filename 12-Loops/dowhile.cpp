@@ -1,22 +1,20 @@
 #include <iostream>
 
-int main()
-{
-    //  Do while happens at least once
-    bool run = true;
-    int i = 0;
-    do {
+int main() {
+  //  Do while happens at least once
+  bool run = true;
+  int i = 0;
+  do {
 
-        if (i == 10) 
-        {
-            run = false;
-        }
+    if (i == 10) {
+      run = false;
+    }
 
-        i++;
-        break; //   Breaks the loop and moves on to next thing of code
-        continue;   // Go immediately to next iteration
+    i++;
+    break;    //   Breaks the loop and moves on to next thing of code
+    continue; // Go immediately to next iteration
 
-    } while (run);
+  } while (run);
 
-    return 0;
+  return 0;
 }
